@@ -1,0 +1,51 @@
+
+R version 4.6.1 (2026-06-24 ucrt) -- "Happy Hop"
+Copyright (C) 2026 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> install.packages(c("quantmod", "TTR", "ggplot2"))
+Installing packages into ‘C:/Users/Computer.com/AppData/Local/R/win-library/4.6’
+(as ‘lib’ is unspecified)
+--- Please select a CRAN mirror for use in this session ---
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.6/quantmod_0.4.29.zip'
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.6/TTR_0.24.4.zip'
+trying URL 'https://cloud.r-project.org/bin/windows/contrib/4.6/ggplot2_4.0.3.zip'
+package ‘quantmod’ successfully unpacked and MD5 sums checked
+package ‘TTR’ successfully unpacked and MD5 sums checked
+package ‘ggplot2’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+        C:\Users\Computer.com\AppData\Local\Temp\Rtmp0yOoNB\downloaded_packages
+> library(quantmod)
+Loading required package: xts
+Loading required package: zoo
+
+Attaching package: ‘zoo’
+
+The following objects are masked from ‘package:base’:
+
+    as.Date, as.Date.numeric
+
+Loading required package: TTR
+Registered S3 method overwritten by 'quantmod':
+  method            from
+  as.zoo.data.frame zoo 
+> library(TTR)
+> library(ggplot2)
+Need help getting started? Try the R Graphics Cookbook:
+https://r-graphics.org
+> 
